@@ -7,13 +7,13 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-
-
   }
   
   h1 {
     text-align: center;
-    /* margin-left: 40px; */
+    font-size: 15px;
+    justify-content: center;
+    margin-top: -30px;
   }
   
   table {
@@ -26,26 +26,28 @@ body {
   
   input[type="text"],
   input[type="password"] {
-    width: 100%;
+    width: 40%;
     padding: 10px;
-    border-radius: 0%;
+    border-radius: 5%;
     border-width: 1px;
     background-color: rgba(197, 197, 197, 0.082);
+    justify-content: center;
+    margin-left: 90px;
   }
   
   input[type="submit"] {
-    background-color: rgba(13, 124, 183, 0.694);
+    background-color: rgba(37, 143, 200, 0.934);
     color: white;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     border-radius: 10%;
     border-width: 1px;
-    /* margin-left: 100px; */
+    margin: 5%;
   }
   
   input[type="submit"]:hover {
-    background-color: rgba(13, 124, 183, 0.541);
+    background-color: rgba(37, 143, 200, 0.658);
   }
   
   form {
@@ -57,22 +59,26 @@ body {
 
   .container {
     display: flex;
-    width: 380px;
-    height: 400px;
+    width: 300px;
+    height: 450px;
+    justify-content: center;
 
   }
   
   .sign-in-box {
     flex: 1;
-    background-color: rgba(50, 109, 129, 0.139);
-    padding: 100px 100px;
+    /* background-color: rgba(50, 109, 129, 0.139); */
     border-radius: 5px;
-    margin-right: 20px;
+    border: 1.5px solid rgba(37, 143, 200, 0.37) ;
+
+  }
+
+
+  .sign-in-box img {
+    width: 250px; 
+    height: 250px; 
+    margin-left: 50px;
+    justify-content: center;
+    margin-right: 50px;
   }
   
-  .welcome-message {
-
-    padding: 20px;
-    border-radius: 5px;
-    font-size: 50px;
-  }
