@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+
+  }
+  
+  h1 {
+    text-align: center;
+    /* margin-left: 40px; */
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  td {
+    padding-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 0%;
+    border-width: 1px;
+    background-color: rgba(197, 197, 197, 0.082);
+  }
+  
+  input[type="submit"] {
+    background-color: rgba(13, 124, 183, 0.694);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+    border-width: 1px;
+    /* margin-left: 100px; */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgba(13, 124, 183, 0.541);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    width: 380px;
+    height: 400px;
+
+  }
+  
+  .sign-in-box {
+    flex: 1;
+    background-color: rgba(50, 109, 129, 0.139);
+    padding: 100px 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .welcome-message {
+
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 50px;
+  }
